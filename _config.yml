@@ -8,4 +8,4 @@
 # Site settings
 title: ANAGRAMS
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pbelmans.ncag.info" # the base hostname & protocol for your site
+url: "http://anagrams-seminar.github.io" # the base hostname & protocol for your site
