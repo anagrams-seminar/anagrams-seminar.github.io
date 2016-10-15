@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <ul id="menu">
+      <li><a href="#goal">goal</a>
+      <li><a href="#schedule">schedule</a>
+      <li><a href="#references">references</a>
+
+      <li id="home"><a href="{{ site.baseurl }}/">home</a>
+    </ul>
+
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>

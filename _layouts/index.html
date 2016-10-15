@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <ul id="menu">
+      <li><a href="#about">about</a>
+      <li><a href="#schedule">schedule</a>
+      <li><a href="#past">past seminars</a>
+      <li><a href="#contact">contact</a>
+    </ul>
+
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>
